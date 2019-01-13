@@ -1,0 +1,55 @@
+[alias]
+# niezbędne minimum konceptów
+	doIndeksu = add
+	doRepo = commit
+	doZdalnego = push
+    doSchowka = stash
+    zeZdalnegoIScal = pull
+    zeZdalnegoIPrzebazujNa = pull --rebase
+    scal = merge
+    przebazujNa = rebase
+
+# start - nowe repo
+    start = init
+    klonuj = clone
+    noweRepoTutajBezZdalnego = init
+
+# gałęzie    
+    konar = branch
+    skoczDo = checkout
+
+# dla orientacji w repo
+    historia = log
+    coTeraz = status
+    porównaj = diff
+    show
+    ls-files
+    zdalneRepo = remote
+    ignore
+    historiaOperacjiNaKonarze = reflog
+    blame
+    historiaSkrócona = shortlog
+    pomocy = help
+    whatchanged
+
+    describe
+    fetch
+    mv
+    notki = notes
+    reset
+    antyteza = revert
+    rm
+    oznacz = tag
+    instaweb
+
+# rzadkie
+    am
+    archive
+    bisect
+    cherry-pick
+    clean
+    format-patch
+    gc
+    grep
+    submodule
+    subtree
